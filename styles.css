@@ -7,7 +7,7 @@
 
 .main-container {
     background: #1F2937;
-    padding: 10px 200px 0px;
+    padding: 10px 300px 0px;
 }
 
 header {
@@ -37,7 +37,7 @@ li {
 }
 
 .hero {
-    width: 30%;
+    width: 35%;
 }
 
 .hero-text {
@@ -52,6 +52,63 @@ li {
 }
 
 .office-img {
-    max-width: 200px;
-    height: auto;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 4px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.secondary-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.img-txt {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 100px;
+}
+.img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+
+.third-container {
+    background-color: #E5E7EB;
+    padding: 10px 300px 0px;
+}
+
+.quotes-container {
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+.author-container {
+    float: right;
+}
+.author {
+    padding-bottom: 100px;
 }
